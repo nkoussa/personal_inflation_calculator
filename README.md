@@ -35,6 +35,22 @@ Requirements:
    httpuv::runStaticServer("docs/")
    ```
 
+## Sources
 
+Data was obtained from [FRED](https://fred.stlouisfed.org/).
+
+| Category       | FRED ID          | FRED Dataset Name |
+| -------------- | ---------------- | ----------------- |
+| income         | LEU0252918500A   | Employed full time: Median usual weekly nominal earnings (second quartile): Wage and salary workers: Bachelor's degree and higher: 25 years and over
+| housing        | CUUR0000SEHA     | Consumer Price Index for All Urban Consumers: Rent of Primary Residence in U.S. City Average
+| food           | CPIUFDNS         | Consumer Price Index for All Urban Consumers: Food in U.S. City Average
+| childcare      | CUUR0000SEEB     | Consumer Price Index for All Urban Consumers: Tuition, Other School Fees, and Childcare in U.S. City Average
+| gas            | APU000074714     | Average Price: Gasoline, Unleaded Regular (Cost per Gallon/3.785 Liters) in U.S. City Average
+| apparel        | CPIAPPSL         | Consumer Price Index for All Urban Consumers: Apparel in U.S. City Average
+| insurance_home | PCU9241269241262 | Producer Price Index by Industry: Premiums for Property and Casualty Insurance: Premiums for Homeowner's Insurance
+| insurance_car  | PCU9241269241261 | Producer Price Index by Industry: Premiums for Property and Casualty Insurance: Premiums for Private Passenger Auto Insurance
+| car_new        | CUUR0000SETA01   | Consumer Price Index for All Urban Consumers: New Vehicles in U.S. City Average
+| car_used       | CUSR0000SETA02   | Consumer Price Index for All Urban Consumers: Used Cars and Trucks in U.S. City Average
+| cpi            | CPIAUCSL         | Consumer Price Index for All Urban Consumers: All Items in U.S. City Average
 
    
