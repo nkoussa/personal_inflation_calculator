@@ -5,7 +5,7 @@ This repo contains the files to create an R shiny app that takes your current in
 ## How to use the Personal Inflation Calculator
 
 ### Online
-You can go to ADD LINK WHEN PERMANENT
+You can go to https://nkoussa.github.io/assets/inflation/PIC.html to view the calculator.
 
 ### View app locally
 Requirements:
