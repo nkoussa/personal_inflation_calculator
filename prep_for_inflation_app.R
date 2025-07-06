@@ -19,17 +19,17 @@ fill_quarterly = function(data){
 }
 
 ### Input data
-income = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/LEU0252918500A.csv")
-housing = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CUUR0000SEHA.csv")
-food = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CPIUFDNS.csv")
-childcare = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CUUR0000SEEB.csv")
-gas = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/APU000074714.csv")
-apparel = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CPIAPPSL.csv")
-insurance_home = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/PCU9241269241262.csv")
-insurance_car = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/PCU9241269241261.csv")
-car_new = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CUUR0000SETA01.csv")
-car_used = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CUSR0000SETA02.csv")
-cpi = read.csv("/Users/natashamorse/Desktop/PersonalGitHub/InflationProject/CPIAUCSL.csv")
+income = read.csv("LEU0252918500A.csv")
+housing = read.csv("CUUR0000SEHA.csv")
+food = read.csv("CPIUFDNS.csv")
+childcare = read.csv("CUUR0000SEEB.csv")
+gas = read.csv("APU000074714.csv")
+apparel = read.csv("CPIAPPSL.csv")
+insurance_home = read.csv("PCU9241269241262.csv")
+insurance_car = read.csv("PCU9241269241261.csv")
+car_new = read.csv("CUUR0000SETA01.csv")
+car_used = read.csv("CUSR0000SETA02.csv")
+cpi = read.csv("CPIAUCSL.csv")
 
 
 ### Processing
